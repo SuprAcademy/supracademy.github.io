@@ -1,50 +1,58 @@
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <!-- Bootstrap -->
-    <link href="{{ "/bower_components/bootstrap/dist/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ "/bower_components/bootstrapValidator/dist/css/bootstrapValidator.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="{{ " /bower_components/bootstrap/dist/css/bootstrap.min.css " | prepend: site.baseurl }}" rel="stylesheet">
+  <link href="{{ " /bower_components/bootstrapValidator/dist/css/bootstrapValidator.min.css " | prepend: site.baseurl }}" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Bootflat -->
-    <!--
+  <!-- Bootflat -->
+  <!--
     <link href="bower_components/bootflat/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="bower_components/bootflat/css/bootflat.css" rel="stylesheet">
     <link href="bower_components/bootflat/css/bootflat-extensions.css" rel="stylesheet">
     <link href="bower_components/bootflat/css/font-awesome.min.css" rel="stylesheet">
     -->
 
-    <!-- Bootflat Square-->
-    <!--
+  <!-- Bootflat Square-->
+  <!--
     <link href="bower_components/bootflat/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="bower_components/bootflat/css/bootflat-square.css" rel="stylesheet">
     <link href="bower_components/bootflat/css/bootflat-extensions.css" rel="stylesheet">
     <link href="bower_components/bootflat/css/font-awesome.min.css" rel="stylesheet">
     -->
 
-    <link rel="stylesheet" href="{{ "/bower_components/animo.js/animate+animo.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/bower_components/animate.css/animate.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ " /bower_components/animo.js/animate+animo.css " | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ " /bower_components/animate.css/animate.min.css " | prepend: site.baseurl }}">
 
-    <!-- Pricing tables -->
-    <link rel="stylesheet" href="{{ "/css/pricing-tables.css" | prepend: site.baseurl }}">
+  <!-- Pricing tables -->
+  <link rel="stylesheet" href="{{ " /css/pricing-tables.css " | prepend: site.baseurl }}">
 
-    <!-- Custom -->
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">    
+  <!-- Custom -->
+  <link rel="stylesheet" href="{{ " /css/main.css " | prepend: site.baseurl }}">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({‘gtm.start’:
+  new Date().getTime(),event:‘gtm.js’});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!=‘dataLayer’?‘&l=‘+l:‘’;j.async=true;j.src=
+  ‘https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,‘script’,‘dataLayer’,‘GTM-57N48HC’);</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 </head>
