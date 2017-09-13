@@ -498,9 +498,9 @@ ul#footer__company:after{
 		/*top: 30%;*/
 		/*width: 55%;*/
 	/*}*/
-	/*#banner-overlay h1 {*/
-		/*font-size: 24px;*/
-	/*}*/
+	#banner-overlay h1 {
+		font-size: 64px;
+	}
 	/*#banner-overlay h2 {*/
 		/*font-size: 18px;*/
 	/*}*/
