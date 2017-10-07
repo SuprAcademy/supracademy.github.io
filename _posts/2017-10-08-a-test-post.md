@@ -1,5 +1,8 @@
 ---
-published: false
+published: true
+layout: post
+title: Testo post
+date: 2017-10-07T07:33:08.000Z
 ---
 ## A Test Post
 
