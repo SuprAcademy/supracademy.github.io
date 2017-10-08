@@ -264,10 +264,26 @@ address {
 }
 
 /* Blog */
-
+#blog h2 {
+	margin-bottom: 16px;
+}
 li.post-listing {
     border-left: none;
     border-right: none;
+}
+li.post-listing:first-child {
+	border-top: none;
+}
+li.post-listing:last-child {
+	border-bottom: none;
+}
+/* Blog Post */
+header.post-header {
+	margin-bottom: 32px;
+	border-bottom: 1px solid #cdced0;
+}
+header.post-header p.meta {
+	color: #858585;
 }
 
 
