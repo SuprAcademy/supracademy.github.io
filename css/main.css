@@ -70,10 +70,11 @@ h2 {
 
 /* Banner */
 #banner {
-    background-image: url("../assets/img/banner-flipped.jpg");
+    background-image: url("../assets/img/academic_support2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 40% 20%;
+    background-position: ; /*40% 20%; */
+    text-align: center;
 
     /*min-height: 300px;*/
 }
@@ -90,6 +91,8 @@ h2 {
 #banner h1,
 #banner h2{
     margin: 0px;
+    color:#F05F41; 
+    font-weight: bolder;
 }
 
 #banner-overlay-title{
@@ -101,7 +104,7 @@ h2 {
     font-size: 26px;
     display: inline-block;
     color: #fff;
-    background-color: #333;
+    background-color:#428bca; /*#333;*/
     border-radius: 3px;
     -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
     box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
@@ -474,9 +477,11 @@ ul#footer__company:after{
 	}
     #banner-overlay-title{
         margin-bottom: 10px;
+
     }
     #banner h2{
         font-size: 20px;
+
     }
 	.strip {
 		padding-top: 40px;
@@ -492,6 +497,7 @@ ul#footer__company:after{
 		text-align: center;
 		color: #428bca;
 	}
+
 
 	/*#banner-overlay-content {*/
 		/*position: absolute;*/
