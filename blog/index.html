@@ -1,0 +1,19 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+published: true
+---
+
+<div id="blog" class="container strip white-theme">
+    <h2>Posts</h2>
+    
+    <ul class="list-group">
+        {% for post in site.posts %}
+        <li class="post-listing list-group-item">
+            <p><a class="post-title" href="{{ post.url }}">{{ post.title }}</a></p>
+            {{ post.excerpt }}
+        </li>
+        {% endfor %}
+    </ul>
+</div>

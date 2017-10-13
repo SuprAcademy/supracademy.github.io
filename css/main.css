@@ -1,10 +1,18 @@
-
+html, body {
+	height: 100%;
+}
 body {
+	display: flex;
+	flex-direction: column;
 	background-color: transparent;
 	font-size: 16px;
 	padding-top: 50px; /* For fixed nav */
 	/* font-family: 'Open Sans'; */
 	font: 'Comic Sans MS';
+}
+
+.page-content {
+	flex: 1 0 auto;
 }
 
 .grey-theme {
@@ -257,6 +265,30 @@ address {
 #triangle-section {
 	margin-bottom: 80px;
 }
+
+/* Blog */
+#blog h2 {
+	margin-bottom: 16px;
+}
+li.post-listing {
+    border-left: none;
+    border-right: none;
+}
+li.post-listing:first-child {
+	border-top: none;
+}
+li.post-listing:last-child {
+	border-bottom: none;
+}
+/* Blog Post */
+header.post-header {
+	margin-bottom: 32px;
+	border-bottom: 1px solid #cdced0;
+}
+header.post-header p.meta {
+	color: #858585;
+}
+
 
 /* Footer */
 .navbar {
