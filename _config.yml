@@ -16,3 +16,5 @@ permalink: pretty
 exclude:
   - 'node_modules'
   - 'package.json'
+
+excerpt_separator: <!–break–>
