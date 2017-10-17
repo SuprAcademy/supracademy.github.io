@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: desmos the best graphing tool
-date: '2017-10-17:33:08.000Z'
+date: 2017-10-17T06:55:08.000Z
 categories: resources tips online tools
 ---
 The best math graphing tool you will ever use online or offline, period. 
