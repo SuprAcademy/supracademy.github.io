@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: desmos The Best Graphing Tool
+title: desmos - The Best Graphing Tool
 date: 2017-10-17T06:55:08.000Z
 categories: resources tips online tools
 ---
