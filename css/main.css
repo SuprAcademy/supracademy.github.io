@@ -288,6 +288,12 @@ header.post-header {
 header.post-header p.meta {
 	color: #858585;
 }
+.post-listing * img {
+	max-height: 256px;
+}
+.post-content * img {
+	max-height: 512px;
+}
 
 
 /* Footer */
