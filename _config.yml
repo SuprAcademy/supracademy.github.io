@@ -28,9 +28,10 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "title"
+          label: "Title"
+          value: ""
       - name: "date"
         field:
           element: "date"
-          value: "CURRENT_DATETIME"
+          value: CURRENT_DATETIME
 
