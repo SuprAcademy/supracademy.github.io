@@ -20,11 +20,11 @@ exclude:
 excerpt_separator: <!–break–>
 
 prose:
-  - rooturl: "/_posts"
-  - siteurl: "https://supracademy.com"
-  - media: "/assets/posts/"
-  - metadata:
-    - _posts:
+  rooturl: "_posts"
+  siteurl: "https://supracademy.com"
+  media: "assets/posts"
+  metadata:
+    _posts:
       - name: "title"
         field:
           element: "text"
@@ -33,3 +33,4 @@ prose:
         field:
           element: "date"
           value: "CURRENT_DATETIME"
+
