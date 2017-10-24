@@ -18,3 +18,18 @@ exclude:
   - 'package.json'
 
 excerpt_separator: <!–break–>
+
+prose:
+  - rooturl: "/_posts"
+  - siteurl: "https://supracademy.com"
+  - media: "/assets/posts/"
+  - metadata:
+    - _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "date"
+        field:
+          element: "date"
+          value: "CURRENT_DATETIME"
