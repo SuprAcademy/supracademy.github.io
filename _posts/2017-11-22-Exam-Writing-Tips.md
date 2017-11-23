@@ -1,8 +1,8 @@
 ---
 published: true
 layout: post
-date: 2017-11-23T00:00:00.000Z
-categories: resources
+date: {}
+categories: exam resources
 ---
 
 Tests, quizzes and exams are inevitable parts of a student's academic journey. Whether you are preparing for a small test coming up soon or your exam period in January, here are a few helpful thoughts on exam preparation that we routinely discuss with our students at SuprAcademy.
