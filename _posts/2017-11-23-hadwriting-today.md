@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+title: Handwriting today
 date: 2017-11-22T00:00:00.000Z
 categories: 'news, analysis'
 ---

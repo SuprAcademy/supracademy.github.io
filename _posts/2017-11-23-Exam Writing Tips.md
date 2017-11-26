@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+title: Exam writing tips
 date: 2017-11-26 07:33:08
 categories: eqao exam resources
 ---
