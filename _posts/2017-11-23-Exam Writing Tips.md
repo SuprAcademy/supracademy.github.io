@@ -1,6 +1,11 @@
 ---
-published: false
+published: true
+layout: post
+date: 2017-11-26 07:33:08
+categories: eqao exam resources
 ---
+
+![exam_time.jpg]({{"/assets/posts/exam_time.jpg"}})
 
 Tests, quizzes and exams are inevitable parts of a student's academic journey. Whether you are preparing for a small test coming up soon or your exam period in January, here are a few helpful thoughts on exam preparation that we routinely discuss with our students at SuprAcademy.
 
