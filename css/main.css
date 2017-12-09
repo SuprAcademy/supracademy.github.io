@@ -101,6 +101,7 @@ h2 {
     margin: 0px;
     color:#F05F41; 
     font-weight: bolder;
+
 }
 
 #banner-overlay-title{
@@ -543,7 +544,7 @@ ul#footer__company:after{
 		/*width: 55%;*/
 	/*}*/
 	#banner-overlay h1 {
-		font-size: 64px;
+		font-size: 44px;
 	}
 	/*#banner-overlay h2 {*/
 		/*font-size: 18px;*/
