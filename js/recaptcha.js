@@ -6,7 +6,7 @@ function showRecaptcha(element) {
 }
 
 function setupRecaptcha() {
-  var contactFormHost = 'http://supracademy-site-contact-form.herokuapp.com',
+  var contactFormHost = 'https://supracademy-site-contact-form.herokuapp.com',
   form = $('#contact-form'),
   notice = form.find('#notice');
 

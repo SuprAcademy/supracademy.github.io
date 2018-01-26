@@ -7,7 +7,7 @@ title: SuprAcademy
 email: info@supracademy.com
 description: ""
 baseurl: ""
-url: "http://supracademy.com"
+url: "https://supracademy.com"
 
 # Build settings
 markdown: kramdown
