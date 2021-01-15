@@ -1,0 +1,139 @@
+---
+layout: default
+title: Traingle of Success
+permalink: /why-us/
+published: true
+---
+
+<div id="triangle-of-success" class="container-fluid strip white-theme">
+  <h1 class="text-center">Triangle of Success</h1>
+  <div class="row">
+    <div id="triangle-description" data-animation="fadeIn" class="col-md-8 col-md-offset-2 animation">
+      <p class="lead">At <b>SuprAcademy</b>, we strongly believe that merely offering a traditional tutoring service does not guarantee a student's academic success. We believe in the importance of parental involvement in their child's academic life. As such, we have structured our service around what we call the Triangle of Success.</p>
+      <p class="lead">For the academic support service that we provide to have the maximum impact, this triangle must remain intact. If any part of the triangle breaks, the academic support we provide loses its effectiveness.</p>
+      <p class="lead">The <b>Triangle of Success</b> has the student, their Guide and the parent at its three vertices. For the Triangle to remain intact, the parent must be satisfied, the student must be happy and SuprAcacdemy must continue to work to make sure that this happens. We understand that the parent's satisfaction is driven from their child's success. So we will work to ensure that this success is achieved.</p>
+      <p class="lead">It is also very important that the student is happy with the academic support that we provide. Our friendly, engaging, and fun approach to conducting a session is attractive to students who are often exposed to passive, sit-and-listen, one-way classroom settings. We encourage students to think through their own problems, and review concepts, often by breaking them down into their most basic components and building our way up to their current grade level.</p>
+      <p class="lead">SuprAcademy and its Guides serve as the third vertex of the Triangle and make sure that the it remains intact by providing top quality academic support and engaging both the parent and the student. Our Guides have many years of experience working with students, helping them understand math and science concepts by taking student-specific approach. Our primary goal is to help students help themselves. We do this by working with students to make sure that they are learning how to learn. SuprAcademy also ensures that parents are engaged in their child's learning journey. Periodic phone and/or email updates, as well as in-person meetings are arranged with parents to provide feedback on student's session-specific and long-term progress updates.</p>
+    </div>
+  </div>
+  <div id="triangle-section" class="row">
+    <div id="triangle" class="col-md-4 col-md-offset-2 animation" data-animation="bounceInLeft">
+      <div id="triangle-wrapper">
+        <div class="row">
+          <div id="triangle-upper" class="col-md-12">
+            <a href="javascript:void(0)"><img id="triangle-student" class="img-responsive img-circle img-triangle" src="/assets/img/triangle-student.png"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div id="triangle-lower" class="col-md-12">
+            <a href="javascript:void(0)"><img id="triangle-guide" class="img-responsive pull-left img-circle img-triangle" src="/assets/img/triangle-guide.png"></a>
+            <a href="javascript:void(0)"><img id="triangle-parent" class="img-responsive pull-right img-circle  img-triangle" src="/assets/img/triangle-parent.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="triangle-details" class="col-md-4 animation" data-animation="bounceInRight">
+      <div id="triangle-student-details">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3 class="panel-title">STUDENT SUCCESS</h3>
+            <br/>
+            <ul>
+              <li>Receive best possible academic guidance based on individual learning need</li>
+              <li>Access to personalized Resources page composed of internal and external resources tailored for student's individual use. Resources are compiled based on student's needs as observed by Guides</li>
+              <li>Own online account with features that promote organization, efficiency and cater to individual learning needs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="triangle-guide-details">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3 class="panel-title">GUIDE/SUPRACADEMY</h3>
+            <br/>
+            <ul>
+              <li>Provides professional, engaging academic support sessions</li>
+              <li>Highly qualified, well-trained and competent guides</li>
+              <li>Follow up on student's ToDo lists and provide sound studying, organizational and time management advice</li>
+              <li>Get to know student's learning style and use his/her extensive experience to adapt and tailor lessons accordingly</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="triangle-parent-details">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3 class="panel-title">PARENT'S ROLE</h3>
+            <br/>
+            <ul>
+              <li>Regular feedback via in-person, phone and online communication</li>
+              <li>Review student day-to-day session performance and periodic academic progress</li>
+              <li>Constant engagement via walk-in "Parent-days"</li>
+              <li>Access to child's session feedback and progress online</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div><!-- end triangle-details -->
+  </div><!-- end row -->
+</div>
+
+<script>
+  $(document).ready(function() {
+    var selectedTriangleNode = $('#triangle-student');
+    $('.img-triangle').css('opacity', '.5');
+    $('#triangle-student').css('opacity', '1');
+    $('#triangle-guide-details').hide();
+    $('#triangle-parent-details').hide();
+    var selectedTriangleDetails = $('#triangle-student-details');
+
+    // A trigger element that is different than the element an animation is
+    // applied to can be used to start animations for a series of elements
+    function onScrollInit( items, triggerContainer ) {
+      items.each( function() {
+        var element = $(this),
+        animationClass    = element.attr('data-animation'),
+        animationDelay    = element.attr('data-animation-delay');
+        animationDuration = element.attr('data-animation-duration');
+
+        var delay = (animationDelay) ? animationDelay : "0s";
+        element.css({
+          '-webkit-animation-delay':  animationDelay,
+          '-moz-animation-delay':     animationDelay,
+          'animation-delay':          animationDelay
+        });
+
+        if(animationDuration){
+          element.css({
+            '-webkit-animation-duration':  animationDuration,
+            '-moz-animation-duration':     animationDuration,
+            'animation-duration':          animationDuration
+          });
+        }
+
+        var trigger = ( triggerContainer ) ? triggerContainer : element;
+
+        trigger.waypoint(function() {
+          element.addClass('animated').addClass(animationClass);
+        },{
+          triggerOnce: true,
+          offset: '100%'
+        });
+      });
+    }
+    onScrollInit( $('.animation') );
+    onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
+
+    $('.img-triangle').click(function(event){
+      selectedTriangleNode.css('opacity', '.5');
+      $(this).css('opacity', '1');
+      selectedTriangleNode = $(this);
+
+      selectedTriangleDetails.hide();
+      var detailsId = '#' + event.target.id + '-details';
+      $(detailsId).show();
+      selectedTriangleDetails = $(detailsId);
+    });
+  });
+
+</script>
